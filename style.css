@@ -1,0 +1,129 @@
+:root{
+
+    /* - Family: [Manrope](https://fonts.google.com/specimen/Manrope) */
+    /* - Weights: 800 */
+
+    --family:Manrope;
+
+    /* Colors */
+
+/* ### Primary */
+
+--Light-Cyan: hsl(193, 38%, 86%);
+--Neon-Green: hsl(150, 100%, 66%);
+
+/* ### Neutral/ */
+
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%);
+
+/* - Font size (quote): 28px */
+
+}
+
+
+.attribution {
+
+    font-size: 11px;
+     text-align: center;
+
+     }
+
+
+.attribution a { 
+
+    color: hsl(228, 45%, 44%);
+ }
+
+ body{
+
+    font-family: var(--family);
+    background-color: var(--Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: auto 2em; */
+    height: 96vh;
+
+ }
+
+
+
+ main{
+
+    background-color: var(--Dark-Grayish-Blue);
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+    width: 27em;
+    position: relative;
+    margin: auto;
+    min-height: 17em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2{
+
+    color:var(--Light-Cyan);
+}
+
+p{
+
+    color: var(--Neon-Green);
+}
+
+ picture img{
+
+    width: 100%;
+    margin-bottom: 2.4em;
+
+ }
+
+
+ main >div{
+
+    background-color: var(--Neon-Green);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -24px;
+    left: 45%;
+    cursor: pointer;
+
+ }
+
+ main >div:hover{
+
+    box-shadow: 0 0 20px var(--Neon-Green);
+ }
+
+ main >div img{
+
+    width: 1em;
+ }
+
+
+ footer{
+
+    margin-top: 3em;
+    color: white;
+ }
+
+ @media (max-width:478px){
+
+
+main{
+
+    width: 90%;
+}
+
+
+ }
