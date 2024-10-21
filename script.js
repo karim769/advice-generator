@@ -1,6 +1,6 @@
 
 function fetchData(){
-fetch("https://api.adviceslip.com/advice")
+fetch("https://api.adviceslip.com/advice",{cache:"no-cache"})
 .then(res => {
 
     return res.json();
