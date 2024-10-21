@@ -1,6 +1,6 @@
-# Frontend Mentor - Ping coming soon page solution
+# Frontend Mentor - Advice Generator
 
-This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). 
+This is a solution to the [Advice Generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/). 
 
 ## Table of contents
 
@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ping-coming-soon-page-yRP5KxgPW5)
-- Live Site URL: [Add live site URL here](https://karim769.github.io/ping-coming-soon-page/)
+- Solution URL: [Add solution URL here](https://github.com/karim769/advice-generator.git)
+- Live Site URL: [Add live site URL here](https://karim769.github.io/advice-generator/)
 
 ## My process
 
